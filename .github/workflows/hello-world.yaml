@@ -12,5 +12,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Print Hello World
+      - name: Print Hello World iam learner
         run: echo "Hello World from GitHub Actions 🚀"
