@@ -20,11 +20,10 @@ jobs:
       with:
           distribution: 'temurin'
           java-version: '21'
-    -name: Make gradle executable
-    run: chmod+gradlew
   
     -name: Build & Test
-    run: |
-        ./gradlew build
+    run: ./gradlew
+    -name: Make gradle executable
+    run: chmod+gradlew    
 
     
